@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
+
 def write_name_to_file(name):
     try:
         with open('akash_dahal.txt', 'w') as file:
